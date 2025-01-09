@@ -1,43 +1,35 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
-.App {  
+.title{
+  font-family: cursive;
+  font-size: 34px;
+  text-align: center;
+  padding-top: 25px;
+}
+.text-box-all{
+  font-family:cursive;
+  font-size: 24px;
+  height: 100%;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-box-location{
+  padding-bottom: 400px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-box{
+  width: 700px;
+  margin-left: 25px;
+  border-radius: 6px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.submit-btn{
+  margin-left: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 10px;
+  border-color: black;
 }
-
-.App-link {
-  color: #61dafb;
+.line{
+  margin-top: 30px;
+  border-color: black;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.table-box{
+  margin-top: 20px;
+  margin-bottom: 100px;
 }

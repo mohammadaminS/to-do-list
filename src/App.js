@@ -1,12 +1,11 @@
 import './App.css';
-
+import react from 'react';
+import SubmitCompo from './components/to-do-compo.jsx';
 
 function App() {
   return (
-    <div className="App bg-slate-400">
-    <html></html>
     
-    </div>
+    <SubmitCompo/>
     
   );
 }
