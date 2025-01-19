@@ -1,5 +1,5 @@
 import react from 'react'
-import 'F:/Amin/programming/test-1/src/App.css';
+import '../App.css';
 import { useState } from 'react';
 
 

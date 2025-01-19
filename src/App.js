@@ -1,6 +1,6 @@
 import './App.css';
 import react from 'react';
-import SubmitCompo from './components/to-do-compo.jsx';
+import SubmitCompo from './components/to-do-compo';
 
 
 function App() {
