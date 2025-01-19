@@ -36,7 +36,7 @@ const SubmitCompo = () => {
            <hr className='line'></hr>
            <div className='list'>
                 <table className='table-box'>
-                    <ul className='block pb-4'>
+                <ul className='block pb-4 float-left'>
                     {items.map((item, index) => (
                         <li key={index}>{index + 1}. {item}</li>
                     ))}
