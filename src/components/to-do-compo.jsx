@@ -26,22 +26,21 @@ const SubmitCompo = () => {
         <div className='bg-blue-400 p-64 font-bold text-box-all '>
         <div className='text-box-location'>
          
-           <label>Add project  : </label><input type='text' name="myInput" className='text-box text-black shadow-lg border-collapse border-black' 
+           <label>Add project  : </label><input type='text' name="input" className='text-box text-black shadow-lg border-collapse border-black' 
            placeholder='write here your to do' 
            value={TodoText} 
            onChange={handleChange}
            />
            <button className='submit-btn shadow border bg-white' onClick={handleClick} >confirm</button> 
-          
            <hr className='line'></hr>
            <div className='list'>
-                <table className='table-box'>
-                <ul className='block pb-4 float-left'>
+                
+                <ul className='block pb-4 table-box'>
                     {items.map((item, index) => (
                         <li key={index}>{index + 1}. {item}</li>
                     ))}
                     </ul>
-                </table>
+                
            </div>
         </div> 
         </div>
